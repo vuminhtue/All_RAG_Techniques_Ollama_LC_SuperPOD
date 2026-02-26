@@ -1,4 +1,6 @@
 - This work follow the repo from https://github.com/NirDiamant/RAG_Techniques 
 - The original repo used OpenAI API and Cohere embedding for multiple RAG techniques
-- We modify NirDiamant repo to work with SMU SuperPOD running with our GPUs using Ollama LLMs (mostly gemma3:12b) and embedding models (mxbai-embed-large:335m).
+- We modify NirDiamant's original repo to work with our HPC using Ollama LLMs (mostly gemma3:12b) and embedding models (mxbai-embed-large:335m). 
+- LLMs and embedding models are arbitrarily selected to work with NVIDIA GPU V100 on M3 and could be adjusted to bigger model on SMU SuperPOD depending on the need.
+- The material has been revamped with Step by Step tutorial for students to follow
 - This is purely for education purpose and we support our SMU faculty with different RAG workflow
