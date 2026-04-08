@@ -26,3 +26,9 @@ except Exception as e:
 
 print("The port that serve ollama is: ", ollama_url)
 ```
+
+And insert **ollama_url** to ChatOllama:
+
+```
+llm = ChatOllama(base_url=ollama_url,model="gemma3:4b",temperature=0)
+```
